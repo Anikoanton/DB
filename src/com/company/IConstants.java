@@ -12,4 +12,6 @@ public interface IConstants {
                     "title VARCHAR(255), " +
                     "cost INTEGER );";
 
+    String SQL_SELECT = " SELECT * FROM tovar; ";
+
 }
