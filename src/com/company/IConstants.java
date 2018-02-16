@@ -11,7 +11,7 @@ public interface IConstants {
                     "( id INTEGER PRIMARY KEY AUTOINCREMENT, " +
                     "title VARCHAR(255), " +
                     "cost INTEGER );";
-
+final public String SQL_Find_price ="select COST from tovar WHERE title=?";
     String SQL_SELECT = " SELECT * FROM tovar; ";
 
 }
